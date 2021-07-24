@@ -42,6 +42,53 @@ html,body{
 	width: 100%;
 	max-width: 1440px;
 	margin:0 auto;
+    padding: 50px 5%;
+}
+
+.button{
+    width: 35%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #6f9dff;
+    color:white;
+}
+
+.w50{
+    width: 50%;
+    padding-right: 30px;
+    color: #03003a;
+}
+
+.img-w50{
+    width: 50%;
+}
+
+.img-w50 img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.w50 input[type="email"]{
+    width: 60%;
+    height: 40px;
+    border:1px solid #cccccc;
+    border-radius: 3px;
+    padding:15px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.text-section h1{
+    font-size: 37px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.text-section p{
+    font-size: 17px;
+    margin-bottom: 25px;
 }
 
 header{
@@ -71,21 +118,66 @@ header nav.menu ul li{
     width: 100%;
 }
 
-section.section-one{
-    padding: 50px 5%;
+.text-section form{
+    width: 80%;
 }
 
-section .text-section-one{
-    width: 50%;
-    padding-right: 30px;
-}
-
-section .img-section-one{
-    width: 50%;
-}
-
-section .img-section-one img{
+section.section-two{
     width: 100%;
+}
+
+section.section-two img.curve{
+    width: 100%;
+    position: relative;
+    bottom: -10px;
+}
+
+section.section-two .background-section-two{
+    background-color: #f9f8fe;
+}
+
+section.section-two .link-fylo{
+    color: #79e0cb;
+    text-decoration: none;
+    border-bottom: 1px solid #79e0cb
+}
+
+section.section-two .link-fylo img{
+    position: relative;
+    top:3px;
+    margin-left: 3px;
+}
+
+section.section-two .testimony{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section.section-three{
+    background-color: #575989;
+    
+}
+
+section.section-three .w70{
+    width: 70%;
+    color: white;
+    margin:50px 0 50px 0;
+}
+
+section.section-three .w70 h1{
+    margin-bottom: 30px;
+}
+
+section.section-three .w30{
+    width: 30%;
+}
+
+section.section-three .w50 input[type="email"]{
+    width: 100%;
+}
+
+section.section-three .w50 .button{
+    width: 50%;
 }
 
 @media screen and (max-width: 768px){

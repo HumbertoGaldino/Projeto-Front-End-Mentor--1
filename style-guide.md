@@ -9,12 +9,12 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Primary
+### Primárias
 
 - Very Dark Blue: hsl(243, 87%, 12%)
 - Desaturated Blue: hsl(238, 22%, 44%)
 
-### Accent
+### Realce
 
 - Bright Blue: hsl(224, 93%, 58%)
 - Moderate Cyan: hsl(170, 45%, 43%)
