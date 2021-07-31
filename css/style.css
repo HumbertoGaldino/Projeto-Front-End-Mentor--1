@@ -58,41 +58,10 @@ html,body{
     width: 50%;
     padding-right: 30px;
     color: #03003a;
-}
-
-.img-w50{
-    width: 50%;
-}
-
-.img-w50 img{
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.w50 input[type="email"]{
-    width: 60%;
-    height: 40px;
-    border:1px solid #cccccc;
-    border-radius: 3px;
-    padding:15px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-}
-
-.text-section h1{
-    font-size: 37px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    margin-bottom: 25px;
-}
-
-.text-section p{
-    font-size: 17px;
-    margin-bottom: 25px;
+    order: 2;
 }
 
 header{
-    padding: 50px 5%;
     width: 100%;
     height: 150px;
     font-family: 'Raleway', sans-serif;
@@ -121,6 +90,42 @@ header nav.menu ul li{
     display: inline-block;
     text-align: right;
     width: 100%;
+}
+
+.img-w50{
+    width: 50%;
+    order: 2;
+}
+
+.img-w50 img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.w50 input[type="email"]{
+    width: 60%;
+    height: 40px;
+    border:1px solid #cccccc;
+    border-radius: 3px;
+    padding:15px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.text-section{
+    order: 1;
+}
+
+.text-section h1{
+    font-size: 37px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.text-section p{
+    font-size: 17px;
+    margin-bottom: 25px;
 }
 
 .text-section form{
@@ -279,9 +284,122 @@ footer .attribution{
 }
 
 @media screen and (max-width: 768px){
+        
+    .w50{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .button{
+        width: 100%;
+    }
+    
+    header nav.menu{
+        width: 100%;       
+    }
+
     header nav.menu ul{
         list-style-type: none;
         width: 100%;
         float: right;
     }
+
+    header .logo{
+        width: 50%;   
+    }
+
+    header .logo img{
+        width: 100%;   
+    }
+
+    section.section-one .central{
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.section-one .centralizar{
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.section-one .text-section form{
+        width: 100%;
+    }
+
+    .w50 input[type="email"]{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    section.section-one .img-w50{
+        width: 100%;
+    }
+
+    section.section-two .central{
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.section-two .centralizar{
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.section-two .img-w50{
+        width: 100%;
+    }
+
+    section.section-two .testimony{
+        width: 100%;
+    }
+
+    section.section-three .central{
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.section-three .centralizar{
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.section-three .w70{
+        width: 100%;
+    }
+
+    section.section-three .w30{
+        width: 100%;
+    }
+
+    section.section-three .w50 input[type="email"]{
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    section.section-three .w50 .button{
+        width: 80%;
+        padding-right: 0;
+    }
+
+    footer .central{
+        display: inline-block;
+        text-align: center;
+    }
+
+    footer .centralizar{
+        display: inline-block;
+        text-align: center;
+    }
+
+    footer .footer-logo{
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    footer .w33{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
 }
